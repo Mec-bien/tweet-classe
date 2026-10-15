@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galerie de la Classe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Zone de connexion -->
+  <div id="login">
+    <h2>Entrer la clé de la classe 🔐</h2>
+    <input type="password" id="password" placeholder="Mot de passe" />
+    <button id="enterBtn">Entrer</button>
+    <p id="error"></p>
+  </div>
+
+  <!-- Zone de la galerie (cachée au départ) -->
+  <div id="gallery" class="hidden">
+    <h2>Galerie de la classe 📸</h2>
+    <input type="file" id="photoInput" accept="image/*" />
+    <button id="addBtn">Ajouter une photo</button>
+    <div id="photos"></div>
+    <p><button id="logoutBtn">Se déconnecter</button></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

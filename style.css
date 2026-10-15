@@ -1,0 +1,29 @@
+/* Style de base */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cache les éléments */
+.hidden {
+  display: none;
+}
+
+/* Style des photos */
+#photos img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* Petits ajustements pour inputs et boutons */
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+}
